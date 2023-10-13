@@ -1,0 +1,14 @@
+/* 
+
+@media screen and (max-width: 839px) {
+  .block01 {
+    display: flex;
+    flex-direction: column;
+  }
+  .item01 {
+    order: 1;
+  }
+  .item02 {
+    order: 2;
+  }
+} */

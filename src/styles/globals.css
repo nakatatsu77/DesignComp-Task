@@ -6,7 +6,7 @@ body {
   font-family: Open Sans, Noto Sans JP, sans-serif;
 }
 
-.desktop-hidden {
+/* .desktop-hidden {
   display: none;
 }
 
@@ -14,7 +14,7 @@ body {
   display: inline;
 }
 
-@media (min-width: 640px) { /* Adjust the breakpoint as needed */
+@media (min-width: 640px) {
   .desktop-hidden {
     display: inline;
   }
@@ -22,4 +22,4 @@ body {
   .mobile-hidden {
     display: none;
   }
-}
+} */
