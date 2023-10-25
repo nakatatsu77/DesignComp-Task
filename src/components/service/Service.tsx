@@ -71,7 +71,7 @@ export function Service() {
                     <div className="Section-Image-B">
                       <Image
                         src="/Images/06.png"
-                        alt="RareTECH"
+                        alt="Envader"
                         width={400}
                         height={225}
                         style={{ borderRadius: "16px" }}
@@ -114,7 +114,7 @@ export function Service() {
                     <div className="Section-Image-A">
                       <Image
                         src="/Images/07.png"
-                        alt="RareTECH"
+                        alt="システム・アプリケーション開発"
                         width={400}
                         height={225}
                         style={{ borderRadius: "16px" }}
@@ -141,7 +141,7 @@ export function Service() {
                     <div className="Section-Image-B">
                       <Image
                         src="/Images/08.png"
-                        alt="RareTECH"
+                        alt="Web制作"
                         width={400}
                         height={225}
                         style={{ borderRadius: "16px" }}
