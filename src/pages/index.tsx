@@ -1,5 +1,6 @@
 import { Hero } from "@/components/hero/Hero";
-import { Service } from "@/components/service/service";
+import { News } from "@/components/news/News";
+import { Service } from "@/components/service/Service";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <main>
         <Hero />
         <Service />
+        <News />
       </main>
     </>
   );
