@@ -14,6 +14,8 @@ module.exports = {
       backgroundImage: {
         "root-hero-sp": "url('/Images/02.jpg')",
         "root-hero-pc": "url('/Images/01.jpg')",
+        "root-contact-sp": "url('/Images/04.jpg')",
+        "root-contact-pc": "url('/Images/03.jpg')",
       },
       screens: {
         md: "840px",
