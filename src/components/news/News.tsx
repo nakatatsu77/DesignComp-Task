@@ -21,7 +21,7 @@ export function News() {
                     <Image
                       src="/Images/mobile.15.png"
                       alt="News"
-                      layout="fill"
+                      fill
                       style={{ borderRadius: "12px" }}
                       priority={true}
                       className="block md:hidden"// モバイルのみ表示
@@ -29,7 +29,7 @@ export function News() {
                     <Image
                       src="/Images/09.png"
                       alt="News"
-                      layout="fill"
+                      fill
                       style={{ borderRadius: "12px" }}
                       priority={true}
                       className="hidden md:block"// PCのみ表示
@@ -56,7 +56,7 @@ export function News() {
                     <Image
                       src="/Images/10.png"
                       alt="RareTECH"
-                      layout="fill"
+                      fill
                       style={{ borderRadius: "12px" }}
                       priority={true}
                     />
@@ -82,7 +82,7 @@ export function News() {
                     <Image
                       src="/Images/11.png"
                       alt="エンベーダー"
-                      layout="fill"
+                      fill
                       style={{ borderRadius: "12px" }}
                       priority={true}
                     />
@@ -110,7 +110,7 @@ export function News() {
                     <Image
                       src="/Images/12.png"
                       alt="システム・アプリケーション開発"
-                      layout="fill"
+                      fill
                       style={{ borderRadius: "12px" }}
                       priority={true}
                     />
@@ -136,7 +136,7 @@ export function News() {
                     <Image
                       src="/Images/13.png"
                       alt="Web制作"
-                      layout="fill"
+                      fill
                       style={{ borderRadius: "12px" }}
                       priority={true}
                     />
@@ -162,7 +162,7 @@ export function News() {
                     <Image
                       src="/Images/14.png"
                       alt="RareTECH"
-                      layout="fill"
+                      fill
                       style={{ borderRadius: "12px" }}
                       priority={true}
                     />
