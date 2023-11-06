@@ -10,16 +10,16 @@ export function Contact() {
             <br />
             まずはお気軽にご相談ください。
           </div>
-          <div className="self-stretch h-[688px] flex-col justify-start items-start flex md:h-auto ">
-            <div className="self-stretch h-[356px] px-6 py-10 bg-zinc-800 rounded-tl-2xl rounded-tr-2xl flex-col justify-start items-end gap-10 flex md:flex-1 md:h-auto md:px-16 md:py-10 md:inline-flex">
-              <div className="justify-start items-start inline-flex">
+          <div className="contact-wrapper self-stretch flex-col justify-start items-start flex md:h-auto md:flex-row">
+            <div className="self-stretch px-6 py-10 bg-zinc-800 rounded-tl-2xl rounded-tr-2xl flex-col justify-start items-end gap-10 flex md:flex-1 md:h-auto md:px-16 md:py-10 md:inline-flex md:rounded-bl-2xl md:rounded-tr-none">
+              <div className="justify-start items-start inline-flex absolute">
                 <div className="text-stone-500 text-[40px] font-bold font-['Inter'] leading-10 tracking-wider">
                   CONTACT
                 </div>
               </div>
-              <div className="self-stretch h-[180px] flex-col justify-start items-start gap-6 flex md:h-[132px] ">
+              <div className="self-stretch flex-col justify-start items-start gap-6 flex ">
                 <div className="self-stretch h-9 flex-col justify-start items-start flex">
-                  <div className="text-white text-2xl font-bold font-['Noto Sans JP'] leading-9 tracking-wide">
+                  <div className="text-white text-2xl font-bold font-['Noto Sans JP'] leading-9 tracking-wide z-10">
                     お問い合わせ
                   </div>
                 </div>
@@ -28,33 +28,35 @@ export function Contact() {
                   <br />
                   カウンセリング、見積もり作成ともに無料でご対応いたしますので、お気軽にご相談ください。
                 </div>
-              <div className="w-60 px-8 py-4 bg-lime-300 rounded-full justify-center items-center inline-flex">
-                <div className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
-                  お問い合わせ
+                <div className="w-60 px-8 py-4 bg-lime-300 rounded-full justify-center items-center inline-flex">
+                  <div className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
+                    お問い合わせ
+                  </div>
                 </div>
               </div>
-              </div>
             </div>
-            <div className="self-stretch h-[332px] px-6 py-10 bg-neutral-500 rounded-bl-2xl rounded-br-2xl flex-col justify-start items-start gap-10 flex md:flex-1 md:h-auto md:px-16 md:bg-neutral-400 md:rounded-tr-2xl md:inline-flex">
-              <div className="justify-start items-start inline-flex">
+            <div className="self-stretch px-6 py-10 bg-neutral-500 rounded-bl-2xl rounded-br-2xl flex-col justify-start items-end gap-10 flex md:flex-1 md:h-auto md:px-16 md:bg-neutral-400 md:rounded-tr-2xl md:inline-flex md:rounded-bl-none">
+              <div className="justify-start items-start inline-flex absolute">
                 <div className="text-neutral-400 text-[40px] font-bold font-['Inter'] leading-10 tracking-wider md:text-stone-300">
                   DOCUMENT
                 </div>
               </div>
-              <div className="self-stretch h-[156px] flex-col justify-start items-start gap-6 flex md:h-[132px]">
-                <div className="self-stretch text-white text-2xl font-bold font-['Noto Sans JP'] leading-9 tracking-wide">
-                  資料ダウンロード
+              <div className="self-stretch flex-col justify-start items-start gap-6 flex md:h-[132px]">
+                <div className="self-stretch h-9 flex-col justify-start items-start flex">
+                  <div className="text-white text-2xl font-bold font-['Noto Sans JP'] leading-9 tracking-wide z-10">
+                    資料ダウンロード
+                  </div>
                 </div>
                 <div className="self-stretch text-zinc-100 text-base font-medium font-['Noto Sans JP'] leading-normal tracking-wide">
                   会社案内、法人エンジニア研修に関するPDF資料をご用意しております。
                   <br />
                   一覧ページよりお受け取りください。
                 </div>
-              </div>
               <div className="w-60 px-8 py-4 bg-white rounded-full justify-center items-center inline-flex">
                 <div className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
                   資料ダウンロード
                 </div>
+              </div>
               </div>
             </div>
           </div>
