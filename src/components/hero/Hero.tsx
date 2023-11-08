@@ -13,7 +13,9 @@ export function Hero() {
                 環境を提供します
               </div>
               <div className="text-base leading-6 tracking-[0.64px] md:text-xl md:leading-[30px]  md:tracking-[0.80px]">
-                IT教育、システム開発から企業を支援する
+                IT教育、システム開発から
+                <br className="md:hidden"/>
+                企業を支援する
                 <br />
                 テクノロジーカンパニーです。
               </div>
