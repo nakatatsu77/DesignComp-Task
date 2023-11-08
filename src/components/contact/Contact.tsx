@@ -10,7 +10,7 @@ export function Contact() {
             <br />
             まずはお気軽にご相談ください。
           </div>
-          <div className="contact-wrapper self-stretch flex-col justify-start items-start flex md:h-auto md:flex-row">
+          <div className="self-stretch flex-col justify-start items-start flex md:h-auto md:flex-row">
             <div className="self-stretch px-6 py-10 bg-zinc-800 rounded-tl-2xl rounded-tr-2xl flex-col justify-start items-end gap-10 flex md:flex-1 md:h-auto md:px-16 md:py-10 md:inline-flex md:rounded-bl-2xl md:rounded-tr-none">
               <div className="justify-start items-start inline-flex absolute">
                 <div className="text-stone-500 text-[40px] font-bold font-['Inter'] leading-10 tracking-wider">
