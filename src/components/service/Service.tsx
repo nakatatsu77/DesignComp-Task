@@ -3,7 +3,10 @@ import Image from "next/image";
 export function Service() {
   return (
     <>
-      <div className="w-full h-full py-20 bg-[#212121] flex-col justify-start items-center inline-flex ">
+      <div
+        id="service"
+        className="w-full h-full py-20 bg-[#212121] flex-col justify-start items-center inline-flex "
+      >
         <div className="w-[328px] h-[2334px] flex-col justify-start items-start gap-16 md:w-[960px] md:h-[1635px] md:gap-20 flex">
           <div className="self-stretch w-[328px] h-[196px] flex-col justify-start items-center gap-10 flex md:inline-flex md:w-[960px] md:h-[172px]">
             <div className="flex-col justify-start items-center flex">

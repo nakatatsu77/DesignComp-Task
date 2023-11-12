@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -25,12 +26,18 @@ export function Footer() {
               </div>
               <div className="justify-start items-start gap-2 inline-flex">
                 <div className="justify-start items-start gap-2 flex">
-                  <div className="text-stone-500 text-sm font-medium font-['Inter'] underline leading-[21px] tracking-wide">
+                  <Link
+                    href="https://twitter.com/RaretechO"
+                    className="text-stone-500 text-sm font-medium font-['Inter'] underline leading-[21px] tracking-wide"
+                  >
                     Twitter
-                  </div>
-                  <div className="text-stone-500 text-sm font-medium font-['Inter'] underline leading-[21px] tracking-wide">
+                  </Link>
+                  <Link
+                    href="https://zenn.dev/var"
+                    className="text-stone-500 text-sm font-medium font-['Inter'] underline leading-[21px] tracking-wide"
+                  >
                     Zenn
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -98,14 +105,20 @@ export function Footer() {
               </div>
               <div className="self-stretch flex-col justify-start items-start gap-2 flex md:inline-flex md:flex-row md:justify-end">
                 <div className="self-stretch px-8 py-4 bg-lime-300 rounded-full justify-center items-center">
-                  <div className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
+                  <Link
+                    href="/contact"
+                    className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide"
+                  >
                     お問い合わせ
-                  </div>
+                  </Link>
                 </div>
                 <div className="self-stretch px-8 py-4 bg-white rounded-full justify-center items-center">
-                  <div className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
+                  <Link
+                    href="/document"
+                    className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide"
+                  >
                     資料ダウンロード
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -118,4 +131,3 @@ export function Footer() {
     </>
   );
 }
-
