@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Contact() {
   return (
     <>
@@ -29,9 +31,12 @@ export function Contact() {
                   カウンセリング、見積もり作成ともに無料でご対応いたしますので、お気軽にご相談ください。
                 </div>
                 <div className="w-60 px-8 py-4 bg-lime-300 rounded-full justify-center items-center inline-flex">
-                  <div className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
+                  <Link
+                    href="/contact"
+                    className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide"
+                  >
                     お問い合わせ
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -52,11 +57,14 @@ export function Contact() {
                   <br />
                   一覧ページよりお受け取りください。
                 </div>
-              <div className="w-60 px-8 py-4 bg-white rounded-full justify-center items-center inline-flex">
-                <div className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
-                  資料ダウンロード
+                <div className="w-60 px-8 py-4 bg-white rounded-full justify-center items-center inline-flex">
+                  <Link
+                    href="/document"
+                    className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide"
+                  >
+                    資料ダウンロード
+                  </Link>
                 </div>
-              </div>
               </div>
             </div>
           </div>

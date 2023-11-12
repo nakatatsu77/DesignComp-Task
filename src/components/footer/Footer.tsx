@@ -8,14 +8,17 @@ export function Footer() {
         <div className="w-[328px] flex-col justify-start items-center gap-10 inline-flex md:flex md:w-auto">
           <div className="footer-wrapper self-stretch flex-col justify-start items-start gap-10 flex md:flex-row md:justify-between md:inline-flex">
             <div className="self-stretch flex-col justify-start items-start gap-2 flex md:w-[425px] md:inline-flex">
-              <div className="w-16 h-16 pt-px pb-[0.94px] justify-center items-center inline-flex">
+              <Link
+                href="/"
+                className="w-16 h-16 pt-px pb-[0.94px] justify-center items-center inline-flex"
+              >
                 <Image
                   src="/Images/Logo.png"
                   alt="株式会社var"
                   width={288}
                   height={282}
                 />
-              </div>
+              </Link>
               <div className="text-white text-xl font-bold font-['Noto Sans JP'] leading-[30px] tracking-wide">
                 株式会社var
               </div>
