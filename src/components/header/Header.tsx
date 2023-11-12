@@ -52,22 +52,22 @@ export function Header() {
               </Link>
             </div>
             <div className="self-stretch justify-start items-center gap-2 flex">
-              <div className="h-[45px] px-6 py-3 bg-lime-300 rounded-full justify-center items-center flex">
-                <Link
-                  href="/contact"
-                  className="flex-1 text-center text-neutral-800 text-sm font-bold font-['Noto Sans JP'] leading-[21px] tracking-wide"
-                >
+              <Link
+                href="/contact"
+                className="h-[45px] px-6 py-3 bg-lime-300 rounded-full justify-center items-center flex hover:bg-lime-400 transition"
+              >
+                <div className="flex-1 text-center text-neutral-800 text-sm font-bold font-['Noto Sans JP'] leading-[21px] tracking-wide">
                   お問い合わせ
-                </Link>
-              </div>
-              <div className="h-[45px] px-6 py-3 bg-white rounded-full border border-neutral-800 justify-center items-center flex">
-                <Link
-                  href="/document"
-                  className="flex-1 text-center text-neutral-800 text-sm font-bold font-['Noto Sans JP'] leading-[21px] tracking-wide"
-                >
+                </div>
+              </Link>
+              <Link
+                href="/document"
+                className="h-[45px] px-6 py-3 bg-white rounded-full border border-neutral-800 justify-center items-center flex hover:opacity-50 transition"
+              >
+                <div className="flex-1 text-center text-neutral-800 text-sm font-bold font-['Noto Sans JP'] leading-[21px] tracking-wide">
                   資料ダウンロード
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
           </div>
           <button

@@ -107,22 +107,22 @@ export function Footer() {
                 </div>
               </div>
               <div className="self-stretch flex-col justify-start items-start gap-2 flex md:inline-flex md:flex-row md:justify-end">
-                <div className="self-stretch px-8 py-4 bg-lime-300 rounded-full justify-center items-center">
-                  <Link
-                    href="/contact"
-                    className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide"
-                  >
+                <Link
+                  href="/contact"
+                  className="self-stretch px-8 py-4 bg-lime-300 rounded-full justify-center items-center hover:bg-lime-400 transition"
+                >
+                  <div className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
                     お問い合わせ
-                  </Link>
-                </div>
-                <div className="self-stretch px-8 py-4 bg-white rounded-full justify-center items-center">
-                  <Link
-                    href="/document"
-                    className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide"
-                  >
+                  </div>
+                </Link>
+                <Link
+                  href="/document"
+                  className="self-stretch px-8 py-4 bg-white rounded-full justify-center items-center hover:opacity-50 transition"
+                >
+                  <div className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
                     資料ダウンロード
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>

@@ -16,21 +16,18 @@ export function Hero() {
               </div>
               <div className="text-base leading-6 tracking-[0.64px] md:text-xl md:leading-[30px]  md:tracking-[0.80px]">
                 IT教育、システム開発から
-                <br className="md:hidden" />
+                <br className="md:hidden"/>
                 企業を支援する
                 <br />
                 テクノロジーカンパニーです。
               </div>
             </div>
           </div>
-          <div className="w-[240px] px-8 py-4 md:w-80 md:px-12 md:py-7 bg-accent-100 rounded-full overflow-hidden justify-center items-center inline-flex">
-            <Link
-              href="#service"
-              className="flex-1 text-center text-base font-bold leading-6 tracking-[0.64px] md:text-xl md:leading-[30px] md:tracking-[0.80px]"
-            >
+          <Link href="#service" className="w-[240px] px-8 py-4 md:w-80 md:px-12 md:py-7 bg-accent-100 rounded-full overflow-hidden justify-center items-center inline-flex hover:bg-lime-400 transition">
+            <div className="flex-1 text-center text-base font-bold leading-6  tracking-[0.64px] md:text-xl md:leading-[30px] md:tracking-[0.80px]">
               事業内容を見る
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
       </div>
     </>

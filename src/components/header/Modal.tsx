@@ -11,7 +11,10 @@ export function Modal({ onMenuToggle }: MenuComponentProps) {
       <div>
         <div className="w-[360px] h-[640px] px-8 py-6 flex-col justify-start items-start gap-10 inline-flex">
           <div className="self-stretch justify-between items-start inline-flex">
-            <Link href="/" className="w-10 h-10 pt-[0.62px] pb-[0.59px] justify-center items-center flex md:w-12 md:h-12 md:pt-[0.75px] md:pb-[0.70px]">
+            <Link
+              href="/"
+              className="w-10 h-10 pt-[0.62px] pb-[0.59px] justify-center items-center flex md:w-12 md:h-12 md:pt-[0.75px] md:pb-[0.70px]"
+            >
               <Image
                 src="/Images/Logo.png"
                 alt="株式会社var"
@@ -56,22 +59,22 @@ export function Modal({ onMenuToggle }: MenuComponentProps) {
               </Link>
             </div>
             <div className="self-stretch h-[98px] flex-col justify-center items-start gap-2 flex">
-              <div className="self-stretch px-6 py-3 bg-lime-300 rounded-full justify-center items-center inline-flex">
-                <Link
-                  href="/contact"
-                  className="grow shrink basis-0 text-center text-neutral-800 text-sm font-bold font-['Noto Sans JP'] leading-[21px] tracking-wide"
-                >
+              <Link
+                href="/contact"
+                className="self-stretch px-6 py-3 bg-lime-300 rounded-full justify-center items-center inline-flex hover:bg-lime-400 transition"
+              >
+                <div className="grow shrink basis-0 text-center text-neutral-800 text-sm font-bold font-['Noto Sans JP'] leading-[21px] tracking-wide">
                   お問い合わせ
-                </Link>
-              </div>
-              <div className="self-stretch px-6 py-3 bg-white rounded-full border border-neutral-800 justify-center items-center inline-flex">
-                <Link
-                  href="/document"
-                  className="grow shrink basis-0 text-center text-neutral-800 text-sm font-bold font-['Noto Sans JP'] leading-[21px] tracking-wide"
-                >
+                </div>
+              </Link>
+              <Link
+                href="/document"
+                className="self-stretch px-6 py-3 bg-white rounded-full border border-neutral-800 justify-center items-center inline-flex hover:opacity-50 transition"
+              >
+                <div className="grow shrink basis-0 text-center text-neutral-800 text-sm font-bold font-['Noto Sans JP'] leading-[21px] tracking-wide">
                   資料ダウンロード
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

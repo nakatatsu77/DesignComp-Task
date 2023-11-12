@@ -30,14 +30,14 @@ export function Contact() {
                   <br />
                   カウンセリング、見積もり作成ともに無料でご対応いたしますので、お気軽にご相談ください。
                 </div>
-                <div className="w-60 px-8 py-4 bg-lime-300 rounded-full justify-center items-center inline-flex">
-                  <Link
-                    href="/contact"
-                    className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide"
-                  >
+                <Link
+                  href="/contact"
+                  className="w-60 px-8 py-4 bg-lime-300 rounded-full justify-center items-center inline-flex hover:bg-lime-400 transition"
+                >
+                  <div className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
                     お問い合わせ
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </div>
             </div>
             <div className="self-stretch px-6 py-10 bg-neutral-500 rounded-bl-2xl rounded-br-2xl flex-col justify-start items-end gap-10 flex md:flex-1 md:h-auto md:px-16 md:bg-neutral-400 md:rounded-tr-2xl md:inline-flex md:rounded-bl-none">
@@ -57,14 +57,14 @@ export function Contact() {
                   <br />
                   一覧ページよりお受け取りください。
                 </div>
-                <div className="w-60 px-8 py-4 bg-white rounded-full justify-center items-center inline-flex">
-                  <Link
-                    href="/document"
-                    className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide"
-                  >
+                <Link
+                  href="/document"
+                  className="w-60 px-8 py-4 bg-white rounded-full justify-center items-center inline-flex  hover:opacity-50 transition"
+                >
+                  <div className="flex-1 text-center text-neutral-800 text-base font-bold font-['Noto Sans JP'] leading-normal tracking-wide">
                     資料ダウンロード
-                  </Link>
-                </div>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
